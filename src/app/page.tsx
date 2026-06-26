@@ -154,7 +154,7 @@ export default function Home() {
                   Found {results.length} result{results.length > 1 ? "s" : ""}{" "}
                   for{" "}
                   <span className="font-semibold text-indigo-600">
-                    "{query}"
+                    &ldquo;{query}&rdquo;
                   </span>
                 </p>
                 <button
